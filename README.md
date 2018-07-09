@@ -12,18 +12,18 @@ Just add 1st time GenericPopupMain.cs in Main scene of project, and add popup wh
 
 Here is the example of message popup 
 -------------------------------------------
-GenericPopupMain.instance.addPopup("Internet Error", "Internet Connention Not Reachable");
+```GenericPopupMain.instance.addPopup("Internet Error", "Internet Connention Not Reachable");```
 
 
 Here is the example of popup with 1 button 
 -------------------------------------------
-GenericPopupMain.instance.addPopup("Internet Error", "Internet Connention Not Reachable", true, new string[] { "OK" }, callBack);
+```GenericPopupMain.instance.addPopup("Internet Error", "Internet Connention Not Reachable", true, new string[] { "OK" }, callBack);```
 
 Note: callBack is Action where you get index of button was clicked
 
 
 Here is the example of popup with 1 button
 -------------------------------------------
-GenericPopupMain.instance.addPopup("Internet Error", "Internet Connention Not Reachable", true, new string[] { "OK", "YES" }, callBack);
+```GenericPopupMain.instance.addPopup("Internet Error", "Internet Connention Not Reachable", true, new string[] { "OK", "YES" }, callBack);```
 
 Note: callBack is Action where you get index of button was clicked
