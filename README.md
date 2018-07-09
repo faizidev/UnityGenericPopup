@@ -1,4 +1,4 @@
-# UnityGenericPopup
+# Unity Generic Popup
 
 Here is Generic Popup for unity games and app by using unity UGUI, very easy to use and reduce development time 
 by calling just 1 line of code.
